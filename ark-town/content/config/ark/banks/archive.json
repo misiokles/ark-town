@@ -1,0 +1,113 @@
+{
+	"core:creatureBank" : 
+	{
+		"types" : 
+		{
+			"ark_archive" : 
+			{
+				"name" : "Sylphs Archive",
+				"templates" : {
+					"base" : { "animation" : "ark/map/banks/archivesylph.def", 
+					"visitableFrom" : [ "+++", "+++", "+++" ], 
+					"mask" : [ "VVV", "VVV", "VBA" ],
+					"allowedTerrains":["snow"] 
+					}
+				},
+				"rmg" : {
+					"value"		: 1500,
+					"rarity"	: 100
+				},
+				"levels": [
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 10, "type" : "ark_sylph_lvl5" },
+							{ "amount": 15, "type" : "ark_construct" },
+							{ "amount": 10, "type" : "ark_sylph_lvl5_up" },
+							{ "amount": 15, "type" : "ark_construct" },
+							{ "amount": 10, "type" : "ark_sylph_lvl5" },
+							{ "amount": 15, "type" : "ark_construct" }
+						],
+						"combat_value": 100,
+						"reward" : {
+							"value": 2000,
+							"resources": 
+							{
+							"сrystal" : 10,
+							"gems" : 10,
+							"gold" : 10000
+							}
+						}
+					},
+										
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 12, "type" : "ark_sylph_lvl5" },
+							{ "amount": 18, "type" : "ark_construct" },
+							{ "amount": 12, "type" : "ark_sylph_lvl5_up" },
+							{ "amount": 18, "type" : "ark_construct" },
+							{ "amount": 12, "type" : "ark_sylph_lvl5" },
+							{ "amount": 18, "type" : "ark_construct" }
+						],
+						"combat_value": 150,
+						"reward" : {
+							"value": 3000,
+							"resources": 
+							{		
+							"сrystal" : 14,
+							"gems" : 14,
+							"gold" : 14000
+							}
+						}
+					},
+					
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 15, "type" : "ark_sylph_lvl5" },
+							{ "amount": 20, "type" : "ark_construct" },
+							{ "amount": 15, "type" : "ark_sylph_lvl5_up" },
+							{ "amount": 20, "type" : "ark_construct" },
+							{ "amount": 15, "type" : "ark_sylph_lvl5" },
+							{ "amount": 20, "type" : "ark_construct" }
+						],
+						"combat_value": 300,
+						"reward" : {
+							"value": 4000,
+							"resources": 
+							{
+							
+							"сrystal" : 17,
+							"gems" : 17,
+							"gold" : 17000
+							}
+						}
+					},
+					
+					{
+						"chance": 10,
+						"guards": [
+							{ "amount": 20, "type" : "ark_sylph_lvl5" },
+							{ "amount": 25, "type" : "ark_construct" },
+							{ "amount": 20, "type" : "ark_sylph_lvl5_up" },
+							{ "amount": 25, "type" : "ark_construct" },
+							{ "amount": 20, "type" : "ark_sylph_lvl5" },
+							{ "amount": 25, "type" : "ark_construct" }
+						],
+						"combat_value": 300,
+						"reward" : {
+							"value": 6000,
+							"resources": 
+							{
+							"сrystal" : 20,
+							"gems" : 20,
+							"gold" : 20000
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

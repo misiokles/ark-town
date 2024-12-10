@@ -1,0 +1,51 @@
+{
+	"ark_penguin":
+	{
+		"name" :
+		{
+			"plural" : "Penguins",
+			"singular" : "Penguin"
+		},
+		"advMapAmount" :
+		{
+			"max" : 20,
+			"min" : 12
+		},
+		"faction" : "neutral",
+		"aiValue" : 30,
+		"attack" : 3,
+		"hasDoubleWeek" : true,
+        "cost" :
+		{
+			"gold" : 30
+		},
+		"damage" :
+		{
+			"max" : 2,
+			"min" : 1 
+		},
+		"defense" : 2,
+		"fightValue" : 30,
+		"graphics" :
+		{
+			"animation" : "ark/creatures/battle/penguin.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "ark/creatures/adventure/penguin.def",
+			"iconSmall" : "ark/creatures/icon/penguin.bmp",
+			"iconLarge" : "ark/creatures/portrait/penguin.bmp",
+			"timeBetweenFidgets" : 1,
+		},	
+		"growth" : 40,
+		"hitPoints" : 8,
+		"level" : 1,
+		"sound" :
+		{
+			"attack" : "ark/penatk.wav",
+			"defend" : "ark/penhit.wav",
+			"killed" : "ark/pendie.wav",
+			"move": "ark/penwlk.wav",
+			"wince" : "ark/penhit.wav"
+		},
+		"speed" : 10,
+	}
+}

@@ -1,0 +1,119 @@
+{
+	"core:creatureBank" : 
+	{
+		"types" : 
+		{
+			"ark_yaranga" : 
+			{
+				"name" : "Yaranga of mammoth hunters",
+				"templates" : {
+					"base" : { "animation" : "ark/map/banks/huntyaranga.def", 
+					"visitableFrom" : [ "+++", "+++", "+++" ], 
+					"mask" : [ "VVV", "VVV", "VBA" ],
+					"allowedTerrains":["snow"] 
+					}
+				},
+				"rmg" : {
+					"value"		: 1500,
+					"rarity"	: 100
+				},
+				"levels": [
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 50, "type" : "ark_frostling_lvl1" },
+							{ "amount": 50, "type" : "ark_frostling_lvl1_up" },
+							{ "amount": 50, "type" : "ark_frostling_lvl1" },
+							{ "amount": 20, "type" : "ark_rider_lvl4" },
+							{ "amount": 20, "type" : "ark_rider_lvl4" },
+							{ "amount": 15, "type" : "ark_rider_lvl4_up" }
+						],
+						"combat_value": 100,
+						"reward" : {
+							"value": 2000,
+							"resources": 
+							{
+								"sulfur" : 8,
+							"ore" : 20,
+							"wood" : 20,
+							"gold" : 8000
+							}
+						}
+					},
+										
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 60, "type" : "ark_frostling_lvl1" },
+							{ "amount": 60, "type" : "ark_frostling_lvl1_up" },
+							{ "amount": 60, "type" : "ark_frostling_lvl1" },
+							{ "amount": 25, "type" : "ark_rider_lvl4" },
+							{ "amount": 25, "type" : "ark_rider_lvl4" },
+							{ "amount": 20, "type" : "ark_rider_lvl4_up" }
+						],
+						"combat_value": 150,
+						"reward" : {
+							"value": 3000,
+							"resources": 
+							{
+							
+								"sulfur" : 9,
+							"ore" : 25,
+							"wood" : 25,
+							"gold" : 9000
+							}
+						}
+					},
+					
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 70, "type" : "ark_frostling_lvl1" },
+							{ "amount": 70, "type" : "ark_frostling_lvl1_up" },
+							{ "amount": 70, "type" : "ark_frostling_lvl1" },
+							{ "amount": 30, "type" : "ark_rider_lvl4" },
+							{ "amount": 30, "type" : "ark_rider_lvl4" },
+							{ "amount": 25, "type" : "ark_rider_lvl4_up" }
+						],
+						"combat_value": 300,
+						"reward" : {
+							"value": 4000,
+							"resources": 
+							{
+							
+								"sulfur" : 10,
+							"ore" : 30,
+							"wood" : 30,
+							"gold" : 10000
+							}
+						}
+					},
+					
+					{
+						"chance": 10,
+						"guards": [
+							{ "amount": 80, "type" : "ark_frostling_lvl1" },
+							{ "amount": 80, "type" : "ark_frostling_lvl1_up" },
+							{ "amount": 80, "type" : "ark_frostling_lvl1" },
+							{ "amount": 35, "type" : "ark_rider_lvl4" },
+							{ "amount": 35, "type" : "ark_rider_lvl4" },
+							{ "amount": 30, "type" : "ark_rider_lvl4_up" }
+						],
+						"combat_value": 300,
+						"reward" : {
+							"value": 6000,
+							"resources": 
+							{
+							
+								"sulfur" : 11,
+							"ore" : 35,
+							"wood" : 35,
+							"gold" : 11000
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

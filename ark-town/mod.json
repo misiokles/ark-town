@@ -1,0 +1,79 @@
+{
+	"name": "Ark-town",
+	"description": "The new city of Ark-town, created based on the folklore of the peoples of the far north.",
+	"author": "Vovan1698",
+	"contact": "discord: Vovan1698",
+	"version": "1.0.0",
+	"modType": "Town", 
+	"compatibility": {
+		"min": "1.6.0"
+	},
+	"russian": {
+		"name": "Арк",
+		"description": "Новый город Арк, созданный на основе фольклора народов крайнего севера.",
+		"translations": [
+			"translation/ark/russian.json"
+		]
+	},
+	"changelog": {
+	
+		"1.0.0": [ "Initial release"]
+	},
+	"factions": [
+		"config/ark/town/faction.json",
+		"config/ark/town/buildings.json",
+		"config/ark/town/structures.json",
+		"config/ark/town/siege.json",
+		"config/ark/town/puzzle.json"
+	],
+	"creatures": [
+		"config/ark/creatures/frostling.json",
+		"config/ark/creatures/frostling_up.json",
+		"config/ark/creatures/inuk.json",
+		"config/ark/creatures/inuk_up.json",
+		"config/ark/creatures/ram.json",
+		"config/ark/creatures/ram_up.json",
+		"config/ark/creatures/rider.json",
+		"config/ark/creatures/rider_up.json",
+		"config/ark/creatures/sylph.json",
+		"config/ark/creatures/sylph_up.json",
+		"config/ark/creatures/demon.json",
+		"config/ark/creatures/demon_up.json",
+		"config/ark/creatures/monster.json",
+		"config/ark/creatures/monster_up.json",
+		"config/ark/creatures/giant.json",
+		"config/ark/creatures/giant_up.json",
+		"config/ark/creatures/shaman.json",
+		"config/ark/creatures/mamonth.json",
+		"config/ark/creatures/penguin.json",
+		"config/ark/creatures/construct.json"
+	],
+	"heroClasses": [
+		"config/ark/classes/angakok.json",
+		"config/ark/classes/oracle.json"
+	],
+	"heroes": [
+		"config/ark/heroes/auril.json",
+		"config/ark/heroes/ayotar.json",
+		"config/ark/heroes/cycyrn.json",
+		"config/ark/heroes/fram.json",
+		"config/ark/heroes/hanta.json",
+		"config/ark/heroes/jinara.json",
+		"config/ark/heroes/korgyn.json",
+		"config/ark/heroes/larann.json",
+		"config/ark/heroes/meriappi.json",
+		"config/ark/heroes/numas.json",
+		"config/ark/heroes/queldor.json",
+		"config/ark/heroes/shuga.json",
+		"config/ark/heroes/sylvord.json",
+		"config/ark/heroes/taktuk.json",
+		"config/ark/heroes/ujarak.json",
+		"config/ark/heroes/uki.json",
+		"config/ark/heroes/vayl.json"
+	],
+	"objects": [
+		"config/ark/dwellings.json",
+		"config/ark/banks/archive.json",
+		"config/ark/banks/yaranga.json"
+	]
+}

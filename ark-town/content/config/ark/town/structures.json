@@ -1,0 +1,326 @@
+{ 
+	"ark" : {
+		"town" : {
+			"structures" : {
+				"mageGuild1" : {
+					"animation" : "ark/buildings/MageGuild1",
+					"area" : "ark/town/area/MageGuild1A",
+					"border" : "ark/town/border/MageGuild1B",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				"mageGuild2" : {
+					"animation" : "ark/buildings/MageGuild2",
+					"area" : "ark/town/area/MageGuild2A",
+					"border" : "ark/town/border/MageGuild2B",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				"mageGuild3" : {
+					"animation" : "ark/buildings/MageGuild3",
+					"area" : "ark/town/area/MageGuild3A",
+					"border" : "ark/town/border/MageGuild3B",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				"tavern" : {
+					"animation" : "ark/buildings/Tavern",
+					"area" : "ark/town/area/TavernA",
+					"border" : "ark/town/border/TavernB",
+					"x" : 0,
+					"y" : 0,
+					"z" : 3
+				},
+				"fort" : {
+					"animation" : "ark/buildings/Fort",
+					"area" : "ark/town/area/FortA",
+					"border" : "ark/town/border/FortB",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				"citadel" : {
+					"animation" : "ark/buildings/Citadel",
+					"area" : "ark/town/area/CitadelA",
+					"border" : "ark/town/border/CitadelB",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},				
+				"castle" : {
+					"animation" : "ark/buildings/Castle",
+					"area" : "ark/town/area/CastleA",
+					"border" : "ark/town/border/CastleB",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				"villageHall" : {
+					"animation" : "ark/buildings/VillageHall",
+					"area" : "ark/town/area/VillageHallA",
+					"border" : "ark/town/border/VillageHallB",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2
+				},
+				"townHall" : {
+					"animation" : "ark/buildings/TownHall",
+					"area" : "ark/town/area/TownHallA",
+					"border" : "ark/town/border/TownHallB",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2
+				},
+				"cityHall" : {
+					"animation" : "ark/buildings/CityHall",
+					"area" : "ark/town/area/CityHallA",
+					"border" : "ark/town/border/CityHallB",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2
+				},
+				"capitol" : {
+					"animation" : "ark/buildings/Capitol",
+					"area" : "ark/town/area/CapitolA",
+					"border" : "ark/town/border/CapitolB",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2
+				},				
+				"blacksmith" : {
+					"animation" : "ark/buildings/Blacksmith",
+					"area" : "ark/town/area/BlacksmithA",
+					"border" : "ark/town/border/BlacksmithB",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"marketplace" : {
+					"animation" : "ark/buildings/Marketplace",
+					"area" : "ark/town/area/MarketplaceA",
+					"border" : "ark/town/border/MarketplaceB",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2
+				},
+				"resourceSilo" : {
+					"animation" : "ark/buildings/ResourceSilo",
+					"area" : "ark/town/area/ResourceSiloA",
+					"border" : "ark/town/border/ResourceSiloB",
+					"x" : 0,
+					"y" : 0,
+					"z" : 3
+				},
+				"dwellingLvl1" : {
+					"animation" : "ark/buildings/Igloo",
+					"area" : "ark/town/area/IglooA",
+					"border" : "ark/town/border/IglooB",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},			
+				"dwellingUpLvl1" : {
+					"animation" : "ark/buildings/IglooUp",
+					"area" : "ark/town/area/IglooUpA",
+					"border" : "ark/town/border/IglooUpB",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				"horde1" : {
+					"animation" : "ark/buildings/FishermenYurt",
+					"area" : "ark/town/area/FishermenYurtA",
+					"border" : "ark/town/border/FishermenYurtB",
+					"hidden" : true,
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				"horde1Upgr" : {
+					"animation" : "ark/buildings/FishermenYurtUp",
+					"area" : "ark/town/area/FishermenYurtUpA",
+					"border" : "ark/town/border/FishermenYurtUpB",
+					"hidden" : true,
+					"builds" : "horde1",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				"dwellingLvl3" : {
+					"animation" : "ark/buildings/RamRocks",
+					"area" : "ark/town/area/RamRocksA",
+					"border" : "ark/town/border/RamRocksB",
+					"x" : 0,
+					"y" : 0,
+					"z" : 3
+				},
+				"dwellingUpLvl3" : {
+					"animation" : "ark/buildings/RamRocksUp",
+					"area" : "ark/town/area/RamRocksUpA",
+					"border" : "ark/town/border/RamRocksUpB",
+					"x" : 0,
+					"y" : 0,
+					"z" : 3
+				},
+				"dwellingLvl2" : {
+					"animation" : "ark/buildings/FrozenVillage",
+					"area" : "ark/town/area/FrozenVillageA",
+					"border" : "ark/town/border/FrozenVillageB",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2
+				},
+				"dwellingUpLvl2" : {
+					"animation" : "ark/buildings/FrozenVillageUp",
+					"area" : "ark/town/area/FrozenVillageUpA",
+					"border" : "ark/town/border/FrozenVillageUpB",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2
+				},
+				"dwellingLvl6" : {
+					"animation" : "ark/buildings/IceCave",
+					"area" : "ark/town/area/IceCaveA",
+					"border" : "ark/town/border/IceCaveB",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2
+				},
+				"dwellingUpLvl6" : {
+					"animation" : "ark/buildings/IceCaveUp",
+					"area" : "ark/town/area/IceCaveUpA",
+					"border" : "ark/town/border/IceCaveUpB",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2
+				},
+				"dwellingLvl5" : {
+					"animation" : "ark/buildings/PalaceOfCold",
+					"area" : "ark/town/area/PalaceOfColdA",
+					"border" : "ark/town/border/PalaceOfColdB",
+					"x" : 0,
+					"y" : 0,
+					"z" : 4
+				},
+				"dwellingUpLvl5" : {
+					"animation" : "ark/buildings/PalaceOfColdUp",
+					"area" : "ark/town/area/PalaceOfColdUpA",
+					"border" : "ark/town/border/PalaceOfColdUpB",
+					"x" : 0,
+					"y" : 0,
+					"z" : 4
+				},
+				"dwellingLvl4" : {
+					"animation" : "ark/buildings/AnimalLair",
+					"area" : "ark/town/area/AnimalLairA",
+					"border" : "ark/town/border/AnimalLairB",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"dwellingUpLvl4" : {
+					"animation" : "ark/buildings/AnimalLairUp",
+					"area" : "ark/town/area/AnimalLairUpA",
+					"border" : "ark/town/border/AnimalLairUpB",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+
+
+
+				"horde3" : {
+					"animation" : "ark/buildings/IceFreeRiver",
+					"area" : "ark/town/area/IceFreeRiverA",
+					"border" : "ark/town/border/IceFreeRiverB",
+					"hidden" : true,
+					"x" : 0,
+					"y" : 0,
+					"z" : 2
+				},
+				"horde3Upgr" : {
+					"animation" : "ark/buildings/IceFreeRiverUp",
+					"area" : "ark/town/area/IceFreeRiverUpA",
+					"border" : "ark/town/border/IceFreeRiverUpB",
+					"hidden" : true,
+					"builds" : "horde3",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2
+				},
+
+
+
+				"dwellingLvl7" : {
+					"animation" : "ark/buildings/SacredLair",
+					"area" : "ark/town/area/SacredLairA",
+					"border" : "ark/town/border/SacredLairB",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},	
+				"dwellingUpLvl7" : {
+					"animation" : "ark/buildings/SacredLairUp",
+					"area" : "ark/town/area/SacredLairUpA",
+					"border" : "ark/town/border/SacredLairUpB",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"special1" : {
+					"animation" : "ark/buildings/Sanctuary",
+					"area" : "ark/town/area/SanctuaryA",
+					"border" : "ark/town/border/SanctuaryB",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1,
+				},		
+				"special3" : {
+					"animation" : "ark/buildings/FrostyRune",
+					"area" : "ark/town/area/FrostyRuneA",
+					"border" : "ark/town/border/FrostyRuneB",
+					"x" : 0,
+					"y" : 0,
+					"z" : 4,
+				},
+				"special4" : {
+					"animation" : "ark/buildings/DancingBoulders",
+					"area" : "ark/town/area/DancingBouldersA",
+					"border" : "ark/town/border/DancingBouldersB",
+					"x" : 0,
+					"y" : 0,
+					"z" : 4,
+				},		
+				"grail" : {
+					"animation" : "ark/buildings/Glacier",
+					"area" : "ark/town/area/GlacierA",
+					"border" : "ark/town/border/GlacierB",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+
+
+				"dwellingLvl6B" : {
+					"animation" : "ark/buildings/CreepyCave",
+					"area" : "ark/town/area/CreepyCaveA",
+					"border" : "ark/town/border/CreepyCaveB",
+					"x" : 0,
+					"y" : 0,
+					"z" : 4
+				},
+				"dwellingUpLvl6B" : {
+					"animation" : "ark/buildings/CreepyCaveUp",
+					"area" : "ark/town/area/CreepyCaveUpA",
+					"border" : "ark/town/border/CreepyCaveUpB",
+					"x" : 0,
+					"y" : 0,
+					"z" : 4
+				}
+			}
+		}
+	}
+}
