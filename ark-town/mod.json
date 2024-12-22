@@ -24,6 +24,7 @@
 		"config/ark/town/faction.json",
 		"config/ark/town/buildings.json",
 		"config/ark/town/structures.json",
+		"config/ark/town/spells.json",
 		"config/ark/town/siege.json",
 		"config/ark/town/puzzle.json"
 	],
