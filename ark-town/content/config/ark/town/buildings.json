@@ -168,6 +168,7 @@
 				"grail": {
 					"description": "The Glacier increases the weekly generation of creatures by 50% and provides your kingdom with an additional 5000 gold each day, also reduces the damage to heroes in battle by 15, gives the ability to place an army before the battle on 8 cells and allows you to use manual control of the catapult during the siege.",
 					"id": 26,
+					"produce": { "gold": 5000 },
 					"bonuses": [
 						{ 	"type": "GENERAL_DAMAGE_REDUCTION", 
 							"subtype": "damageTypeAll", 
