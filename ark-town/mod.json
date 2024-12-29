@@ -3,7 +3,7 @@
 	"description": "The new city of Ark-town, created based on the folklore of the peoples of the far north.",
 	"author": "Vovan1698",
 	"contact": "discord: Vovan1698",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"modType": "Town", 
 	"depends" : [ "hota.cove", "hota.interference" ],
 	"compatibility": {
@@ -16,8 +16,16 @@
 			"translation/ark/russian.json"
 		]
 	},
+	"polish": {
+		"name": "Lodowiec",
+		"description": "Nowe miasto Lodowiec, stworzone na bazie folkloru ludów dalekiej północy",
+		"translations": [
+			"translation/ark/polish.json"
+		]
+	},
 	"changelog": {
-		"1.0.1": [ "Fix Grail not to produce gold"]	,
+                "1.0.2": [ "Polish translation by FallainBlack"],
+		"1.0.1": [ "Fix Grail not to produce gold"],
 		"1.0.0": [ "Initial release"]
 	},
 	"factions": [
