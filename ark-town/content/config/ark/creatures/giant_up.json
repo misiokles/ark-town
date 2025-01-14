@@ -39,9 +39,10 @@
 				"type" : "ENEMY_DEFENCE_REDUCTION",
 				"val" : 10
 				    },
-			"noReaction": {
-				"type" : "NO_RETALIATION"
-				    },
+			"noRetalitation" : 
+			{
+				"type" : "BLOCKS_RETALIATION"
+			},
 			"FireImmunity": {
 				"type": "SPELL_SCHOOL_IMMUNITY",
 				"subtype" : "fire"},
